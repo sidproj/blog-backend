@@ -38,7 +38,7 @@ main().catch((e)=>{
 // adding middlewares
 app.use(
     cors({
-        origin:'https://blog-frontend-eight-livid.vercel.app/'
+        origin:'*'
     })
 );
 app.use(bodyParser.json());
